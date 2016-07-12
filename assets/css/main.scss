@@ -78,11 +78,11 @@ $transition-nav:   all 500ms linear;
    Import
    ========================================================================== */
 @import
+    url(http://fonts.googleapis.com/earlyaccess/notosanstc.css),
     "base",
     "layout",
     "sidebar",
     "loader",
     "syntax-highlighting"
 ; 
-@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
 
