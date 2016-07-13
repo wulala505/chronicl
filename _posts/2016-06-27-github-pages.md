@@ -44,6 +44,6 @@ Theme如何套用呢?
 {% highlight ruby %}   
 	![]file:/// 文件的絕對路徑
 {% endhighlight %}
-* 字型　　
-使用google的webfont，不知為何@import一直失敗，後來貼整陀google給的css，讓檔案少了request的過程才成功
+* 字型  　　
+使用google的webfont，不知為何@import一直失敗，後來貼整陀google給的css，讓檔案少了request的過程才成功。    
 ### (未完待續)
