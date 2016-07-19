@@ -1,3 +1,4 @@
+---
 title: "Python 初階學習資源"
 date: 2016-07-19
 backgrounds:
