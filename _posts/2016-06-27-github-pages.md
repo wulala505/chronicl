@@ -17,7 +17,14 @@ categories: jekyll
 * 在看任何教學前先看發文日期  
 不管寫得有多詳盡，這領域的變動速度實在太快，更新和修正後的狀況不一定和搭建時的一樣。
 
+* User or organization site V.S Project site   
+是不一樣的!!我是到後來搭建完才發現，這也是為什麼看很多教學有時候會讓我搞混。  
 
+ User or organization site 的 URL: `http(s)://<username>.github.io`  
+ Project site 的 URL: `http(s)://<username>.github.io/<projectname>`
+ 
+詳細差異可參考[此篇](http://wiki.jikexueyuan.com/project/github-pages-basics/)介紹
+ 
 * 自動生成 vs 手動創建  
 標題寫快速搭建的文章有些都是github自動生成的版面，當然快，
 可是因事先沒分清楚差別，如果不是自己想要的方式，反而花了不少爬文時間。  
@@ -30,6 +37,7 @@ categories: jekyll
 
 * Markdown語法    
 不太複雜可以做中學，但是從別人的樣板對照出現的效果去記憶會事半功倍。
+`檔名不可寫中文，否則內文也會顯示亂碼`
 
 * Jekyll   
 Theme如何套用呢?  
@@ -43,10 +51,10 @@ Theme如何套用呢?
 網站生成後，最終的檔案都會放進這個資料夾，可以先把它清空，之後jekyll serve資料夾就會出現生成的內容。
 
 * 插入本機圖片 
-{% highlight ruby %}   
-	![]file:/// 文件的絕對路徑
-{% endhighlight %}
-* 字型  　　
+  
+	`![]file:/// 文件的絕對路徑`
+	
+* 字型  
 使用google的webfont，不知為何@import一直失敗，後來貼整陀google給的css，讓檔案少了request的過程才成功。   
 
-### (未完待續)
+以上是我過程中有卡關的幾個點，分享[這個](http://playingfingers.com/2016/03/26/build-a-blog/)我覺得較完整的教學
