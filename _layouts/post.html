@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="post">
     {% if page.reading_time %}
-    <p class="post-reading-time">&#126;
+    <p class="post-reading-time">
         {% capture words %}
           {{ content | number_of_words | minus: 180 }}
         {% endcapture %}
