@@ -28,7 +28,8 @@ tags: Python
 + U.camdemy - [Python與數據分析](http://u.camdemy.com/course/122/section/lecture)
 簡單快速地講解了數據分析的基礎和應用
 
-+ [大數學堂](http://www.largitdata.com/)，輕鬆又簡易地快速學習資料分析技能
++ [大數學堂](http://www.largitdata.com/)，輕鬆又簡易地快速學習資料分析技能  
 
++ [Codecademy](https://www.codecademy.com) - 透過各式各樣小題目來練習，每每達成任務都有玩遊戲破關的成就感，會讓人想持之以恆地完成。  
 
 (持續更新)
